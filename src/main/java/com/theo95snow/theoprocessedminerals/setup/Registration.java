@@ -31,9 +31,20 @@ public class Registration {
   public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP);
 
   //Blocks
+  public static final RegistryObject<Block> RAW_TIN_BLOCK = BLOCKS.register("raw_tin_block", () -> new Block(BLOCK_PROPERTIES));
+  public static final RegistryObject<Item> RAW_TIN_BLOCK_ITEM = fromBlock(RAW_TIN_BLOCK);
+  public static final RegistryObject<Block> TIN_BLOCK = BLOCKS.register("tin_block", () -> new Block(BLOCK_PROPERTIES));
+  public static final RegistryObject<Item> TIN_BLOCK_ITEM = fromBlock(TIN_BLOCK);
 
   //Items
   public static final RegistryObject<Item> RAW_TIN_CHUNK = ITEMS.register("raw_tin_chunk", () -> new Item(ITEM_PROPERTIES));
+  public static final RegistryObject<Item> TIN_DUST = ITEMS.register("tin_dust", () -> new Item(ITEM_PROPERTIES));
+  public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(ITEM_PROPERTIES));
+  public static final RegistryObject<Item> TIN_NUGGET = ITEMS.register("tin_nugget", () -> new Item(ITEM_PROPERTIES));
+  public static final RegistryObject<Item> TIN_ROD = ITEMS.register("tin_rod", () -> new Item(ITEM_PROPERTIES));
+  public static final RegistryObject<Item> TIN_PLATE = ITEMS.register("tin_plate", () -> new Item(ITEM_PROPERTIES));
+  public static final RegistryObject<Item> TIN_GEAR = ITEMS.register("tin_gear", () -> new Item(ITEM_PROPERTIES));
+  public static final RegistryObject<Item> TIN_WIRE = ITEMS.register("tin_wire", () -> new Item(ITEM_PROPERTIES));
 
   public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
     return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));

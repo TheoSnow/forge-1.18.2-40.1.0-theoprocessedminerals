@@ -1,4 +1,13 @@
 {
+  "block.theoprocessedminerals.raw_tin_block": "Raw Tin Block",
+  "block.theoprocessedminerals.tin_block": "Tin Block",
   "item.theoprocessedminerals.raw_tin_chunk": "Raw Tin Chunk",
+  "item.theoprocessedminerals.tin_dust": "Tin Ingot",
+  "item.theoprocessedminerals.tin_gear": "Tin Gear",
+  "item.theoprocessedminerals.tin_ingot": "Tin Ingot",
+  "item.theoprocessedminerals.tin_nugget": "Tin Nugget",
+  "item.theoprocessedminerals.tin_plate": "Tin Plate",
+  "item.theoprocessedminerals.tin_rod": "Tin Rod",
+  "item.theoprocessedminerals.tin_wire": "Tin Wire",
   "itemGroup.theoprocessedminerals": "Processed Minerals"
 }

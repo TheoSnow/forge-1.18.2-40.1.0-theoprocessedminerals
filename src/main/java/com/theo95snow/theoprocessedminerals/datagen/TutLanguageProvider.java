@@ -16,6 +16,17 @@ public class TutLanguageProvider extends LanguageProvider {
   protected void addTranslations() {
     add("itemGroup." + TAB_NAME, "Processed Minerals");
 
+    //Blocks
+    add(Registration.RAW_TIN_BLOCK.get(), "Raw Tin Block");
+    add(Registration.TIN_BLOCK.get(), "Tin Block");
+    //Items
     add(Registration.RAW_TIN_CHUNK.get(), "Raw Tin Chunk");
+    add(Registration.TIN_DUST.get(), "Tin Ingot");
+    add(Registration.TIN_INGOT.get(), "Tin Ingot");
+    add(Registration.TIN_NUGGET.get(), "Tin Nugget");
+    add(Registration.TIN_ROD.get(), "Tin Rod");
+    add(Registration.TIN_PLATE.get(), "Tin Plate");
+    add(Registration.TIN_GEAR.get(), "Tin Gear");
+    add(Registration.TIN_WIRE.get(), "Tin Wire");
   }
 }

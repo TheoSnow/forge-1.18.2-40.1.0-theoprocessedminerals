@@ -23,3 +23,13 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+/src/main/resources/assets/theoprocessedminerals/textures/item/inspirations/
+/src/main/resources/assets/theoprocessedminerals/textures/item/base_ingot.xcf
+/src/main/resources/assets/theoprocessedminerals/textures/item/raw_base_chunk.png
+/src/main/resources/assets/theoprocessedminerals/textures/item/raw_base_chunk.xcf
+/src/main/resources/assets/theoprocessedminerals/textures/block/inspirations/
+/src/main/resources/assets/theoprocessedminerals/textures/item/base_rod.xcf
+/src/main/resources/assets/theoprocessedminerals/textures/item/base_nugget.xcf
+/src/main/resources/assets/theoprocessedminerals/textures/item/base_dust.xcf
+/src/main/resources/assets/theoprocessedminerals/textures/block/raw_base_block.xcf
+/src/main/resources/assets/theoprocessedminerals/textures/block/base_block.xcf
